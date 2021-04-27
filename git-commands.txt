@@ -1,0 +1,37 @@
+
+===========================================
+Ignore local file
+===========================================
+.git/info/exclude
+-------------------------------------------
+git update-index --skip-worktree <file-list>
+git update-index --no-skip-worktree <file-list>  // to reverse
+
+
+
+===========================================
+Reset
+===========================================
+git reset --hard
+$ git reset --hard HEAD~1  // lose all changes
+
+$ git reset --soft HEAD~1  // undo commit but keep changes
+
+===========================================
+Revert master back to earlier commit
+===========================================
+git push --force origin ea626dca4ee2076abbd9a54188b45c3f67d39587:master
+
+git format-patch origin
+
+
+===========================================
+Discard changes to file
+===========================================
+git checkout -- <file>
+
+
+===========================================
+View changeset
+===========================================
+git format-patch origin
