@@ -9,3 +9,4 @@ class CmdCommand(sublime_plugin.TextCommand):
         command= "cd "+current_directory+" & "+current_driver+" & start cmd"
         os.system(command)
         
+-- Context.sublime-menu: [{ "command": "cmd" }]
