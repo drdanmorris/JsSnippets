@@ -35,3 +35,39 @@ git checkout -- <file>
 View changeset
 ===========================================
 git format-patch origin
+
+
+===========================================
+Diff
+===========================================
+- git diff --name-only develop branch2
+- git diff --name-only develop...
+- git --no-pager diff --name-only develop branch2
+- git --no-pager diff --name-only develop...
+
+- git difftool develop branch2 -- file   
+- git difftool develop... -- file   
+
+===========================================
+VIM
+===========================================
+- :qa quit, next file
+- gg BOF
+- G EOF
+- $ EOL
+- 0 BOL
+- zo open fold
+- zc close fold
+- zr reduce folding level
+- zm one more folding level please
+
+===========================================
+VIMDIFF
+===========================================
+- ]c next diff
+- [c prev diff
+- ctrl-w = make windows equal
+= ctrl-w <- switch to left window
+= ctrl-w -> switch to right window
+
+
