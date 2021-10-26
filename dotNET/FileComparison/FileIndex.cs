@@ -1,17 +1,11 @@
-﻿using PulseCommon.Tests.UnitTests.New.Helpers.Extensions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
-using System.IO;
 
-namespace PulseCommon.Tests.UnitTests.New.Helpers.FileComparer
+namespace FileComparer
 {
     public class FileIndex
     {
-
 
         public static FileIndex Create(string file, string name)
         {
