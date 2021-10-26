@@ -1,16 +1,14 @@
-using PulseCommon.Tests.UnitTests.New.Helpers.Extensions;
+using Extensions;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace PulseCommon.Tests.UnitTests.New.Helpers
+namespace Helpers
 {
     public class ReflectionHelper
     {
-
-
         private static void SetNumeric(PropertyInfo p, object obj, int numericVal)
         {
             int intValue = numericVal;
