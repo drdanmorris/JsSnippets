@@ -1,13 +1,8 @@
-﻿using PulseCommon.Tests.UnitTests.New.Helpers.Extensions;
-using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace PulseCommon.Tests.UnitTests.New.Helpers.FileComparer
+namespace FileComparer
 {
     public class FileComparison
     {
